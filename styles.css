@@ -1,0 +1,38 @@
+body {
+  background: #0b0b0b;
+  color: #00ff9c;
+  font-family: monospace;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+textarea {
+  width: 90%;
+  height: 200px;
+  background: black;
+  color: #00ff9c;
+  border: 2px solid #00ff9c;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background: black;
+  color: #00ff9c;
+  border: 2px solid #00ff9c;
+  padding: 10px 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00ff9c;
+  color: black;
+}
+
+.controls {
+  margin: 15px;
+}
