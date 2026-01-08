@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flow-Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>🎤 Flow-Lab</h1>
+<p>Your browser rap studio</p>
+
+<select id="beatSelect">
+  <option value="beats/drill.mp3">Drill</option>
+  <option value="beats/boom_bap.mp3">Boom Bap</option>
+  <option value="beats/trap.mp3">Trap</option>
+</select>
+
+<div class="controls">
+  <button onclick="playBeat()">▶ Play Beat</button>
+  <button onclick="stopBeat()">⏹ Stop</button>
+</div>
+
+<textarea id="lyrics" placeholder="Write your bars here..."></textarea>
+
+<div class="controls">
+  <button onclick="startRecording()">🎙 Record</button>
+  <button onclick="stopRecording()">⏹ Stop</button>
+</div>
+
+<audio id="beat" loop></audio>
+
+<script src="audio.js"></script>
+
+</body>
+</html>
